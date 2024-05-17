@@ -49,6 +49,40 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-
+    height:100%;
+    width: 100%;
     
 }
+
+.filterPage{
+    width: 40%;
+   
+    
+}
+
+.checkbox{
+    width: 5%;
+    
+}
+
+.filterFields{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.filterCategory{
+    display: flex;
+
+justify-content: start;
+gap: 2%;
+margin: 4%;
+}
+
+.products{
+    display: flex;
+    width: 100%;
+    
+
+}
+

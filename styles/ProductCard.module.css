@@ -4,6 +4,7 @@
     flex-direction: column;
     /* background-color: blueviolet; */
     margin-bottom: 2%;
+    min-width: 250px;
     
 }
 .section1{
