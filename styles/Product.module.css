@@ -1,7 +1,7 @@
 .products_page {
     display: flex;
     flex-direction: column;
-    padding-inline: 5%;
+    padding-inline: 6%;
 }
 
 .products_filters {

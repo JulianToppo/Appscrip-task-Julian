@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import PageHeading from "@/components/PageHeading/PageHeading";
 import Products from "@/components/Products/Products";
@@ -20,6 +21,7 @@ const Home = ({ products }) => {
       <Header />
       <PageHeading />
       <Products products={products} />
+      <Footer/>
     </div>
   );
 };

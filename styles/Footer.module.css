@@ -1,0 +1,92 @@
+.footer{
+    background-color:black;
+    color:white;
+}
+
+.subheading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+.footerSection{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding:10%;
+    padding-bottom: 0;
+    height: 100%;
+    width: 100%;
+ 
+}
+
+.footerSectionContent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2%;
+ 
+ 
+}
+.footerSectionSubscription{
+    display:flex;
+    width: 30%;
+    justify-content: space-between;
+    width: 100%;
+ 
+    padding: 2%;
+}
+
+.contactDetails{
+    width: 40%;
+    justify-content: start;
+}
+
+.paymentDisclaimer{
+    font-size: 0.5rem;
+}
+
+.getSubsciption{
+    display: flex;
+    width: 60%;
+ 
+    justify-content: flex-start;
+    padding-top:2%;
+}
+.getSubsciption>input{
+    width:50%;
+}
+.subscriptionButton{
+    
+    padding-inline: 8%;
+    margin-left: 5%;
+    border-radius: 25px; 
+    color: grey;
+    background-color:black ;
+    border-color: grey;
+    text-transform: uppercase;
+}
+
+.footerSectionLinks{
+    display: flex;
+    justify-content: space-around;
+    
+    padding-bottom: 5%;
+    /* background-color: aqua; */
+}
+.pageLinks{
+    display: flex;
+    flex-direction: column;
+}
+
+.pageLinks>li{
+    list-style: none;
+    padding-top:9%;
+    
+}
+
+.currency{
+    display: flex;
+    align-items: center;
+}
