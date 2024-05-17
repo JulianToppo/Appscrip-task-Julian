@@ -25,6 +25,7 @@ export async function getStaticProps() {
 const Home = ({ products ,categories}) => {
   return (
     <div>
+      
       <Header />
       <PageHeading />
       <Products products={products} categories={categories}/>

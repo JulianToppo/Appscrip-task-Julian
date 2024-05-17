@@ -5,9 +5,16 @@ import style from "@/styles/Header.module.css";
 
 const Header = () => {
   return (
-    <div className={style.header}>
+    <div>
+      <div className={style.top_bar}>
+        <BrandInfo/>
+        <BrandInfo/>
+        <BrandInfo/>
+      </div>
+        <div className={style.header}>
       {/* grey */}
 
+      
       <div className={style.header_logo_name_icons}>
         <svg
           width="36"
@@ -128,6 +135,8 @@ const Header = () => {
 
       </div>
     </div>
+    </div>
+  
   );
 };
 
