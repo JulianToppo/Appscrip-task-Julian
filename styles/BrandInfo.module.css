@@ -1,0 +1,30 @@
+.brand_info_box {
+    display: flex;
+    width: 138px;
+    justify-content: space-between;
+    height: 16px;
+    gap: 10px;
+
+    
+
+}
+
+.brandname {
+    width: 112px;
+    height: 14px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.brandname>p {
+    font-family: Simplon Norm;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #EB4C6B;
+
+
+}

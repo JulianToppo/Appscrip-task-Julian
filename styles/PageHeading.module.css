@@ -1,0 +1,28 @@
+.pageheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+    padding: 5%;
+    align-content: space-evenly;
+    border: 1px solid #E5E5E5;
+   
+}
+
+.heading{
+    font-size: 3rem;
+    transform: scaleY(1);
+    color:#252020;
+}
+
+.page_information{
+    width: 55%;
+    font-size: 1.2rem;
+    align-self: center;
+    font-weight: 300;
+    margin-top: 2%;
+    color:#252020;
+     line-height: 1.5; 
+     text-align: center;
+}

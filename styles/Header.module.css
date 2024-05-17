@@ -1,0 +1,69 @@
+.top_bar {
+    display: flex;
+    width: 100%;
+    height: 32px;
+    padding: 8px 274px 8px 274px;
+    justify-content: space-between;
+    background-color: #000000;
+
+}
+
+.header {
+
+    height: 30%;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+
+
+}
+
+.header_logo_name_icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.header_logo_name_icons>svg {
+    height: 2.5%;
+    width: 2.5%;
+}
+
+
+.brand_name {
+    position: relative;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+.header_icons {
+    display: flex;
+    width: 25%;
+    /* background-color: aquamarine; */
+    margin-left: -20%;
+    justify-content: space-between;
+}
+
+.dropdown {
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar_items {
+    display: flex;
+    text-transform: uppercase;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 55%;
+    font-weight: 600;
+    color:#252020;
+
+}
