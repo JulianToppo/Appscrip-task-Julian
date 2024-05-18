@@ -84,3 +84,15 @@
     align-items: center;
     
 }
+
+
+@media (max-width:768px) {
+    .navbar{
+        justify-content: flex-start;
+        padding-left: 6%;
+    }
+
+    .navbar_items{
+        width: 20%;
+    }
+}

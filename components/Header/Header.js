@@ -175,11 +175,22 @@ const Header = () => {
 
         <div className={style.navbar}>
           <ul className={style.navbar_items}>
-            <li>Shop</li>
-            <li>Skills</li>
-            <li>Stories</li>
-            <li>About</li>
-            <li>Contact US</li>
+           
+            {isMobile ? (
+              <>
+                <li>Home</li>
+                <p>|</p>
+                <li>Shop</li>
+              </>
+            ) : (
+              <>
+                <li>Shop</li>
+                <li>Skills</li>
+                <li>Stories</li>
+                <li>About</li>
+                <li>Contact US</li>
+              </>
+            )}
           </ul>
         </div>
       </div>
