@@ -46,8 +46,8 @@ const Products = ({ products, categories }) => {
           <div className={style.filterPage}>
             <h1>Filters</h1>
             <div className={style.filterFields}>
-              {categories.map((categories_item) => {
-                return <div className={style.filterCategory}>
+              {categories.map((categories_item,key) => {
+                return <div key={key} className={style.filterCategory}>
                     <input className={style.checkbox} type="checkbox "></input>
                     <label>{categories_item}</label>
                 </div>;
