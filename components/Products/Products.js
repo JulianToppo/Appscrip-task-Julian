@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import style from "@/styles/Product.module.css";
 import ProductCard from "./ProductCard";
+import { useIsMobile } from "@/util/screenSizeContext";
 
 const Products = ({ products, categories }) => {
+
+  const isMobile= useIsMobile();
+
   const [showfilter, setshowfilter] = useState(true);
 
   console.log(categories)
@@ -16,9 +20,16 @@ const Products = ({ products, categories }) => {
     <div className={style.products_page}>
       <div className={style.products_filters}>
         <div className={style.products_filters_section1}>
-          <p className={style.product_count}>{products.length + " ITEMS"}</p>
+          {
+            isMobile?<></>:<p className={style.product_count}>{products.length + " ITEMS"}</p>
+          }
+        
           <p className={style.showfilter} onClick={handleClick}>
-            {showfilter ? "< Show Filter" : " > Hide Filter"}
+          {isMobile ? (
+        'Filter'
+      ) : (
+        showfilter ? '< Show Filter' : '> Hide Filter'
+      )}
           </p>
         </div>
         <div className={style.products_filters_section2}>
